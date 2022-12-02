@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: black;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0  auto;
+    padding: 0 15px;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    background: url(../img/card2.png) repeat-x  0 100%;
+    display: inline-block;
+}
+.card{
+    width: 300px;
+    padding: 20px 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.25);
+} 
+.card:hover{
+    background-color: rgba(52, 21, 227, 0.615);
+    
+}
+.card-img{
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+}
+.card-img1{
+    background-image: url(../img/planet.png);
+}
+.card-img2{
+    background-image: url(../img/stars.png);
+}
+.card-img3{
+    background-image: url(../img/moon.png);
+}
+.card:hover .card-img1{
+    background-image: url(../img/planeta.png);
+}
+.card:hover .card-img2{
+    background-image: url(../img/moonnn.png);
+}
+.card:hover .card-img3{
+    background-image: url(../img/moon2.png)
+}
